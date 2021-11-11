@@ -1,0 +1,95 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #38a3a5;
+  height: 100vh;
+}
+
+.heading,
+.app p:nth-child(2),
+.app p:nth-child(3),
+.app p:nth-child(4) {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.app p:nth-child(2) {
+  color: #ffb319;
+}
+.app p:nth-child(3) {
+  color: green;
+}
+.app p:nth-child(4) {
+  color: #555;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px 0;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-input input {
+  width: 800px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.icon-pen {
+  background-color: #555;
+  color: #32c1cd;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+.todo-list {
+  width: 700px;
+  margin: 0 auto;
+}
+.todo-item {
+  border-radius: 5px;
+  color: white;
+  background-color: #1db9c3;
+  margin-bottom: 10px;
+  border: 2px solid #555;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  transform: translateY(-50%);
+}
+
+.todo-name {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  transition: opacity 0.25s ease;
+}
+.todo-name:hover {
+  opacity: 0.6;
+}
+
+.icon-trash {
+  color: #555;
+  padding: 2px;
+}
+.line-through {
+  text-decoration: line-through;
+  color: #ccc;
+  background-color: #999;
+}

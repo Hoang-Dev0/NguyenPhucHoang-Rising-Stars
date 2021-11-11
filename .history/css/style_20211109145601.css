@@ -1,0 +1,11 @@
+.app{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #32C1CD;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.app p:nth

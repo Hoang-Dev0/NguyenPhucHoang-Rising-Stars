@@ -1,0 +1,49 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #32c1cd;
+}
+
+.heading,
+.app p:nth-child(2),
+.app p:nth-child(3),
+.app p:nth-child(4) {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.app p:nth-child(2) {
+  color: orange;
+}
+.app p:nth-child(3) {
+  color: green;
+}
+.app p:nth-child(4) {
+  color: #555;
+}
+.form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.form-input input {
+  width: 600px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.icon-pen{
+    background-color: #555;
+    color: #32c1cd;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+

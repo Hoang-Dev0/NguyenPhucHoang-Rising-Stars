@@ -1,0 +1,30 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #32c1cd;
+}
+
+.heading,.app p:nth-child(2)
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.app p:nth-child(2) {
+  color: orange;
+  text-align: center;
+  padding: 20px 0;
+}
+.app p:nth-child(3) {
+  color: green;
+  text-align: center;
+  padding: 20px 0;
+}
+.app p:nth-child(4) {
+  text-align: center;
+  color: #555;
+  padding: 20px 0;
+}

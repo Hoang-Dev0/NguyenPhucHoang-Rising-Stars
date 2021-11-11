@@ -1,0 +1,23 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #32c1cd;
+}
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.app p:nth-child(2) {
+  color: orange;
+  text-align: center;
+}
+.app p:nth-child(3) {
+  color: green;
+  text-align: center;
+}
+.app p:nth-child(4) {
+  text-align: center;
+  color: #555;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h3 class="heading">WORK TO-DOS</h3>
+      <p>Enter text into the input field to add items to your list</p>
+      <p>Click the item to mark it as complete</p>
+      <p>Click the "X" to remove the item from your list</p>
+      <button class="sort">sort</button>
+      <div class="form-input">
+        <input type="text" placeholder="New item..." />
+        <span class="icon-pen">
+          <i class="fas fa-pen"></i>
+        </span>
+      </div>
+      <ul class="todo-list">
+        <li class="todo-item">
+          <p class="todo-name">
+            <input type="text" class="todo-title">
+            <span class="icon-trash">
+              <i class="fas fa-times"></i>
+            </span>
+          </p>
+
+          <button class="edit">Edit</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

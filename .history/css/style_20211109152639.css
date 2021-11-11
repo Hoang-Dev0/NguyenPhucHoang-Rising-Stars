@@ -1,0 +1,62 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #32c1cd;
+}
+
+.heading,
+.app p:nth-child(2),
+.app p:nth-child(3),
+.app p:nth-child(4) {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.app p:nth-child(2) {
+  color: orange;
+}
+.app p:nth-child(3) {
+  color: green;
+}
+.app p:nth-child(4) {
+  color: #555;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px 0;
+}
+
+.form-input input {
+  width: 800px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.icon-pen {
+  background-color: #555;
+  color: #32c1cd;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+.todo-list {
+  width: 700px;
+  margin: 0 auto;
+}
+.todo-item {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #88e0ef;
+  margin-bottom: 10px;
+  border-radius: 1px solid ;
+}
